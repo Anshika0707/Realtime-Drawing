@@ -20,11 +20,11 @@ function modelLoaded() {
 }
 
 function draw() {
-    background('#8B0000');
+    background('#f25050');
 
-    document.getElementById("square_side").innerHTML = "Width And Height of a square will be = " +difference+ "px";
-    fill('#F90093');
-    stroke('#F90083');
+    document.getElementById("square_side").innerHTML = "Width And Height of a square will be = " + difference + "px";
+    fill('#f0ebdd');
+    stroke('#f0ebdd');
     square(noseX , noseY , difference);
 }
 
